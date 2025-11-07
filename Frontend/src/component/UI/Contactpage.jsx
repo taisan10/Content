@@ -2,10 +2,10 @@ import { ContactpageButton, Container} from "../UI/UiComponent";
 
 export default function ContactPage() {
   return (
-    <section id="contact" className="bg-black text-white py-16 sm:py-20 -mb-30 ">
+    <section id="contact" className="bg-black text-white py-16 sm:py-20 -mb-30">
       <Container className="max-w-6xl mx-auto ">
         {/* Heading */}
-        <h1 className="lg:text-8xl text-4xl sm:text-5xl font-bold text-start mb-10 ">
+        <h1 className="lg:text-8xl text-4xl sm:text-5xl font-bold text-start mb-10   -mt-10">
           Connect with us <br />
           directly
         </h1>
