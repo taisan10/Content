@@ -52,9 +52,9 @@ export default function Kpi() {
     <SectionTitle
   title={
     <div className="whitespace-normal lg:whitespace-nowrap">
-      The Next Era of Marketing,{" "}
+     The Numbers {" "}
       <br className="block lg:hidden" />
-      <GradientText>Designed for Growth</GradientText>
+      <GradientText>That Matters</GradientText>
     </div>
   }
 />
