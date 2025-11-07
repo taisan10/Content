@@ -214,12 +214,27 @@ const scrollTabs = (direction) => {
         >
           {/* Left: Text Content */}
           <div className="w-full md:w-1/2 flex flex-col gap-4 sm:gap-6 text-center md:text-left">
-            <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold">
+            {/* <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold">
               {activeWork.name}
             </h3>
             <p className="text-base sm:text-lg opacity-90">
               {activeWork.heroSection.subtitle}
-            </p>
+            </p> */}
+            <h3
+  className={`text-2xl sm:text-3xl md:text-4xl font-bold ${
+    activeWork.name === "Hearthstone Inn" ? "text-gray-100" : "text-black"
+  }`}
+>
+  {activeWork.name}
+</h3>
+
+<p
+  className={`text-base sm:text-lg opacity-90 ${
+    activeWork.heroSection.subtitle.includes("1.6K") ? "text-gray-100" : "text-black"
+  }`}
+>
+  {activeWork.heroSection.subtitle}
+</p>
 
             {/* Stats */}
             <div
