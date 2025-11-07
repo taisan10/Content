@@ -32,21 +32,21 @@ export default function ContactPage() {
               <input
                 type="text"
                 placeholder="Enter your name"
-                className="w-full px-4 py-2 rounded-lg  text-white   border-b border-gray-5 0   focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                className="w-full px-4 py-2 rounded-lg  text-white   border-b border-gray-5 0   focus:outline-none focus:ring-2 focus:ring-sky-400"
                 
               />
               <input
                 type="tel"
                 placeholder="Enter your phone number"
-                className="w-full px-4 py-2 rounded-lg text-white  border-b border-gray-50  focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                className="w-full px-4 py-2 rounded-lg text-white  border-b border-gray-50  focus:outline-none focus:ring-2 focus:ring-sky-400"
               />
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full px-4 py-2 rounded-lg  text-white  border-b border-gray-50 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                className="w-full px-4 py-2 rounded-lg  text-white  border-b border-gray-50 focus:outline-none focus:ring-2 focus:ring-sky-400"
               />
 
-              <select className="w-full px-4 py-2 rounded-lg bg-black  border-b border-gray-50  text-gray focus:outline-none focus:ring-2 focus:ring-yellow-400">
+              <select className="w-full px-4 py-2 rounded-lg bg-black  border-b border-gray-50  text-gray focus:outline-none focus:ring-2 focus:ring-sky-400">
                 <option>Select option</option>
                 <option>Creator</option>
                 <option>Brand</option>
@@ -55,7 +55,7 @@ export default function ContactPage() {
               <textarea
                 placeholder="What services are you looking for?"
                 rows="4"
-                className="w-full px-4 py-2 rounded-lg text-white   border-b border-gray-50  focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                className="w-full px-4 py-2 rounded-lg text-white   border-b border-gray-50  focus:outline-none focus:ring-2 focus:ring-sky-400"
               />
 
               <ContactpageButton type="submit" >
