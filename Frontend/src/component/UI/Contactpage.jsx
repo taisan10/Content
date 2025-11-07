@@ -1,0 +1,201 @@
+
+
+
+
+
+
+import { Container } from "../UI/UiComponent";
+import { useState } from "react";
+
+export default function ContactPage() {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phoneCode: "", // default empty
+    phone: "",
+    message: "",
+  });
+
+  const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleChange = (e) => {
+    setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!formData.firstName || !formData.email || !formData.message) {
+      setStatus("Please fill in all required fields.");
+      return;
+    }
+
+    setLoading(true);
+    setStatus("");
+
+    const phoneCodes = ["+91", "+1", "+44"];
+    let submittedPhones = [];
+
+    if (formData.phone) {
+      if (formData.phoneCode) {
+        submittedPhones = [`${formData.phoneCode} ${formData.phone}`];
+      } else {
+        submittedPhones = phoneCodes.map((code) => `${code} ${formData.phone}`);
+      }
+    }
+
+    const payload = {
+      ...formData,
+      submittedPhones,
+    };
+
+   const CONTACT_API = import.meta.env.VITE_CONTACT_API;
+    try {
+     const res = await fetch(CONTACT_API, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(payload),
+});
+
+      const result = await res.json();
+
+      if (result.success) {
+        setStatus("✅ Message sent successfully!");
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phoneCode: "",
+          phone: "",
+          message: "",
+        });
+      } else {
+        setStatus("❌ Failed to send message.");
+      }
+    } catch (error) {
+      console.error(error);
+      setStatus("❌ Something went wrong. Try again later.");
+    }
+
+    setLoading(false);
+  };
+
+  return (
+    <section id="contact" className="py-16 sm:py-20">
+      <Container className="grid gap-8 sm:gap-12 md:grid-cols-2 items-start -mt-8 sm:-mt-12 md:-mt-12 lg:-mt-12 -mb-10 sm:-mb-10 md:-mb-18 lg:-mb-10 ">
+        <div>
+          <h3 className="text-3xl sm:text-4xl font-semibold leading-tight mb-4 sm:mb-6 text-white/80">
+           Ready to Grow Your Revenue Through Digital Marketing?
+
+          </h3>
+          {/* <ul className="space-y-2 sm:space-y-3 text-white/80 text-base sm:text-lg">
+            <li>• How does the Bluenose agency work for your brand?</li>
+            <li>• How can you do marketing at scale better, faster and cheaper?</li>
+            <li>• How we’re different from agencies, freelancers and in‑house teams (hint: faster & leaner!)</li>
+            <li>• Which subscription plan fits your growth goals?</li>
+          </ul> */}
+          <h5>
+            Our greatest satisfaction comes from seeing our client’s business succeed. Now it’s your high time to remove the barriers to your growth through reach and large no. of audience and accelerate your profitability.
+
+          </h5>
+        </div>
+
+        <div className="rounded-[24px] sm:rounded-[28px] bg-white p-5 sm:p-8 shadow-xl text-neutral-900">
+          <form
+            onSubmit={handleSubmit}
+            className="grid grid-cols-1 gap-3 sm:gap-4 text-neutral-900"
+          >
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+              <input
+                name="firstName"
+                value={formData.firstName}
+                onChange={handleChange}
+                className="w-full rounded-xl border border-neutral-200 bg-white px-4 py-3 text-sm"
+                placeholder="First Name*"
+                required
+              />
+              <input
+                name="lastName"
+                value={formData.lastName}
+                onChange={handleChange}
+                className="w-full rounded-xl border border-neutral-200 bg-white px-4 py-3 text-sm"
+                placeholder="Last Name"
+              />
+            </div>
+
+            <input
+              name="email"
+              type="email"
+              value={formData.email}
+              onChange={handleChange}
+              placeholder="Work Email*"
+              className="w-full rounded-xl border border-neutral-200 bg-white px-4 py-3 text-sm"
+              required
+            />
+
+         <div className="flex gap-2 items-center relative">
+  {/* Country Code Dropdown */}
+  <div className="relative">
+    <select
+      name="phoneCode"
+      value={formData.phoneCode}
+      onChange={handleChange}
+      className="w-17 sm:w-19 md:w-18 lg:w-20 rounded-xl border border-neutral-300 bg-white px-2 py-3 text-sm appearance-none focus:ring-2 focus:ring-sky-400 focus:border-sky-400 transition-all duration-200"
+    >
+      <option value="">Code</option>
+     <option value="+44">+44</option> <option value="+1">+1</option> <option value="+91">+91</option>
+      
+    </select>
+
+    {/* Custom dropdown arrow */}
+    <span className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-500 pointer-events-none">
+      ▼
+    </span>
+  </div>
+
+  {/* Phone Number Input */}
+  <input
+    name="phone"
+    value={formData.phone}
+    onChange={handleChange}
+    placeholder="Phone (optional)"
+    className="flex-1 rounded-xl border border-neutral-300 bg-white px-1 py-3 text-sm focus:ring-2 focus:ring-sky-400 focus:border-sky-400 transition-all duration-200"
+  />
+</div>
+
+
+            <textarea
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              placeholder="What tasks would you like to solve?"
+              className="min-h-[120px] rounded-xl border border-neutral-200 bg-white px-4 py-3 text-sm"
+            />
+
+            <button
+              type="submit"
+              disabled={loading}
+              className="rounded-full bg-gradient-to-r from-sky-500 to-cyan-400 px-6 py-3 text-sm font-medium text-white shadow-lg disabled:opacity-50"
+            >
+              {loading ? "Submitting..." : "Book A Free Audit "}
+            </button>
+
+            {status && (
+  <div
+    className={`text-sm mt-2 ${
+      status.includes("❌") || status.includes("Please")
+        ? "text-red-600"
+        : "text-green-700"
+    }`}
+  >
+    {status}
+  </div>
+)}
+          </form>
+        </div>
+      </Container>
+    </section>
+  );
+}
