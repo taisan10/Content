@@ -364,6 +364,14 @@ data: [
      img: "/Client_Logo/1.png",
      theme: "bg-[#FAFFD7] text-black",
      slug: "triveeni-events",
+      data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
     {
   title: "Rivaaj Resto-Bar",
@@ -371,6 +379,14 @@ data: [
   img: "/Client_Logo/17.png",
   theme: "bg-[#ad863e]  text-black",
   slug: "rivaaj-resto-bar",
+   data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
 },
  {
   title: "The Garden Retreat",
@@ -378,6 +394,14 @@ data: [
   img: "/Client_Logo/8.png",
   theme: "bg-[#2e5c2e] text-black",
   slug: "the-garden-retreat",
+   data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
     {
      title: "Pita Nutso",
@@ -385,6 +409,14 @@ data: [
      img: "/Client_Logo/3.png",
      theme: "bg-[#f0dfcc] text-black",
      slug: "pita-nutso",
+      data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
     
   ],
@@ -471,6 +503,14 @@ data: [
      img: "/Client_Logo/1.png",
      theme: "bg-[#FAFFD7] text-black",
      slug: "triveeni-events",
+      data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
 {
     title: "Hearthstone Inn",
@@ -478,6 +518,14 @@ data: [
     img: "/Client_Logo/6.png",
     theme: "bg-[#233369] text-black",
     slug: "hearthstone-inn",
+     data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
 
    {
@@ -486,6 +534,14 @@ data: [
     img: "/Client_Logo/16.png",
     theme: "bg-[#134457] text-black",
     slug: "beshram-bar-and-grill",
+     data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
 
 {
@@ -494,6 +550,14 @@ data: [
     img: "/Client_Logo/7.1.png",
     theme: "bg-[#b2222b] text-black",
     slug: "sake-cafe-sushi-bar-&-grill",
+     data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
   ],
 },
@@ -576,6 +640,14 @@ data: [
   img: "/Client_Logo/17.png",
   theme: "bg-[#ad863e]  text-black",
   slug: "rivaaj-resto-bar",
+   data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
 },
  {
       title: "Beaver Bank Station Bar & Grill",
@@ -583,6 +655,14 @@ data: [
       img: "/Client_Logo/5.png",
       theme: "bg-[#fa9b0b]   text-black",
       slug: "beaver-bank-station-Bar-&-grill",
+       data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
     },
      {
      title: "Triveeni Events",
@@ -590,6 +670,14 @@ data: [
      img: "/Client_Logo/1.png",
      theme: "bg-[#FAFFD7] text-black",
      slug: "triveeni-events",
+      data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
   {
   title: "The Garden Retreat",
@@ -597,6 +685,14 @@ data: [
   img: "/Client_Logo/8.png",
   theme: "bg-[#2e5c2e] text-black",
   slug: "the-garden-retreat",
+   data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
   ],
 },
@@ -685,6 +781,14 @@ data: [
      img: "/Client_Logo/3.png",
      theme: "bg-[#f0dfcc] text-black",
      slug: "pita-nutso",
+      data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
   {
     title: "Hearthstone Inn",
@@ -692,6 +796,14 @@ data: [
     img: "/Client_Logo/6.png",
     theme: "bg-[#233369] text-black",
     slug: "hearthstone-inn",
+     data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
 
     {
@@ -700,6 +812,14 @@ data: [
       img: "/Client_Logo/4.1.png",
       theme: "bg-[#FFC100] text-black",
       slug: "adda-indian-eatery",
+       data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
     },
  {
       title: "Nayya Pizza & Grill",
@@ -707,6 +827,14 @@ data: [
       img: "/Client_Logo/2.png",
       theme: "bg-[#FF6B01] text-black",
       slug: "nayya-pizza-&-grill",
+       data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
     },
 
   ],
@@ -794,6 +922,14 @@ data: [
       img: "/Client_Logo/5.png",
       theme: "bg-[#fa9b0b]   text-black",
       slug: "beaver-bank-station-Bar-&-grill",
+       data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
     },
 
     {
@@ -802,6 +938,14 @@ data: [
   img: "/Client_Logo/17.png",
   theme: "bg-[#ad863e]  text-black",
   slug: "rivaaj-resto-bar",
+   data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
 },
     {
      title: "Triveeni Events",
@@ -809,6 +953,14 @@ data: [
      img: "/Client_Logo/1.png",
      theme: "bg-[#FAFFD7] text-black",
      slug: "triveeni-events",
+      data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
 {
      title: "Pita Nutso",
@@ -816,6 +968,14 @@ data: [
      img: "/Client_Logo/3.png",
      theme: "bg-[#f0dfcc] text-black",
      slug: "pita-nutso",
+      data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
 
   ],
@@ -901,6 +1061,14 @@ data: [
   img: "/Client_Logo/17.png",
   theme: "bg-[#ad863e]  text-black",
   slug: "rivaaj-resto-bar",
+   data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
 },
 {
     title: "Hearthstone Inn",
@@ -908,6 +1076,14 @@ data: [
     img: "/Client_Logo/6.png",
     theme: "bg-[#233369] text-black",
     slug: "hearthstone-inn",
+     data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
 
     {
@@ -916,6 +1092,14 @@ data: [
       img: "/Client_Logo/2.png",
       theme: "bg-[#FF6B01] text-black",
       slug: "nayya-pizza-&-grill",
+       data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "878%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
     },
 {
     title: "Sake Cafe | Sushi Bar & Grill",
@@ -923,6 +1107,14 @@ data: [
     img: "/Client_Logo/7.1.png",
     theme: "bg-[#b2222b] text-black",
     slug: "sake-cafe-sushi-bar-&-grill",
+     data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
   ],
 },
@@ -1010,6 +1202,14 @@ data: [
       img: "/Client_Logo/2.png",
       theme: "bg-[#FF6B01] text-black",
       slug: "nayya-pizza-&-grill",
+       data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Rech", value: "8%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
     },
    {
      title: "Pita Nutso",
@@ -1017,6 +1217,14 @@ data: [
      img: "/Client_Logo/3.png",
      theme: "bg-[#f0dfcc] text-black",
      slug: "pita-nutso",
+      data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   
   },
   {
@@ -1025,6 +1233,14 @@ data: [
     img: "/Client_Logo/7.1.png",
     theme: "bg-[#b2222b] text-black",
     slug: "sake-cafe-sushi-bar-&-grill",
+     data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
   {
     title: "Hearthstone Inn",
@@ -1032,6 +1248,14 @@ data: [
     img: "/Client_Logo/6.png",
     theme: "bg-[#233369] text-black",
     slug: "hearthstone-inn",
+     data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
 
 
@@ -1120,6 +1344,14 @@ data: [
     img: "/Client_Logo/7.1.png",
     theme: "bg-[#b2222b] text-black",
     slug: "sake-cafe-sushi-bar-&-grill",
+     data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
  {
       title: "Beaver Bank Station Bar & Grill",
@@ -1127,6 +1359,14 @@ data: [
       img: "/Client_Logo/5.png",
       theme: "bg-[#fa9b0b]   text-black",
       slug: "beaver-bank-station-Bar-&-grill",
+       data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
     },
      {
      title: "Triveeni Events",
@@ -1134,6 +1374,14 @@ data: [
      img: "/Client_Logo/1.png",
      theme: "bg-[#FAFFD7] text-black",
      slug: "triveeni-events",
+      data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
   {
   title: "The Garden Retreat",
@@ -1141,6 +1389,14 @@ data: [
   img: "/Client_Logo/8.png",
   theme: "bg-[#2e5c2e] text-black",
   slug: "the-garden-retreat",
+   data: [
+      { label: "Total Views", value: "1.3M+" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Accounts Reached", value: "439K+" },
+      { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
+      // { label: "Avg. Monthly Growth Rate", value: "130%" },
+    ],
   },
   ],
 
