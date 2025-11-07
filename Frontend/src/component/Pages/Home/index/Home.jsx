@@ -10,7 +10,7 @@ import Kpi from "../Kpi";
 import OurWork from "../OurWork";
 
 import Services from "../Service";
-import Testimonial from "../Testimonial";
+// import Testimonial from "../Testimonial";
 
 import Video from "../Video";
 
@@ -25,7 +25,7 @@ export default function Home(){
           <Video />
           <Kpi />
           <OurWork />
-          <Testimonial />
+          {/* <Testimonial /> */}
          {/* <CollageSlider /> */}
           <Services />
       
