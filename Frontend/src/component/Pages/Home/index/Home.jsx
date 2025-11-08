@@ -8,9 +8,10 @@ import Contact from "../Contact";
 import Hero from "../Hero";
 import Kpi from "../Kpi";
 import OurWork from "../OurWork";
+import { RatingSection } from "../Rating";
 
 import Services from "../Service";
-// import Testimonial from "../Testimonial";
+import Testimonial from "../Testimonial";
 
 import Video from "../Video";
 
@@ -26,7 +27,8 @@ export default function Home(){
           <Kpi />
           <OurWork />
           {/* <Testimonial /> */}
-         {/* <CollageSlider /> */}
+          {/* <RatingSection /> */}
+     
           <Services />
       
     <Contact />
