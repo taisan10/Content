@@ -140,7 +140,7 @@ export function CaseStudiesSections() {
                 <div>
                   <h3
                     className={`text-2xl font-bold mb-6 ${
-                      ["Hearthstone Inn", "Besharam Bar and Grill"].includes(
+                      ["Hearthstone Inn"].includes(
                         study.title
                       )
                         ? "text-gray-100"

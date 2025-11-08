@@ -1,7 +1,7 @@
 import transporter from "../utils/nodemailer.js";
 
 export const sendContactMail = async (req, res) => {
-  const { firstName, lastName, email, phoneCode, phone, message } = req.body;
+  const { firstName, lastName, email, phoneCode, role,phone, message } = req.body;
 
   try {
    await transporter.sendMail({
@@ -14,6 +14,7 @@ export const sendContactMail = async (req, res) => {
     <p><b>Name:</b> ${firstName} ${lastName}</p>
     <p><b>Email:</b> ${email}</p>
     <p><b>Phone:</b> ${phoneCode} ${phone}</p>
+    <p><b>Role:</b> ${role}</p>
     <p><b>Message:</b> ${message}</p>
   `,
 });
