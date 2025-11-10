@@ -211,7 +211,7 @@ export function MobileNav({ open, setOpen, navItems }) {
               </NavLink>
             )
           )}
-          <PrimaryButton href="#contact" onClick={() => setOpen(false)}>Contact Us </PrimaryButton>
+          <PrimaryButton href="/contact" onClick={() => setOpen(false)}>Book A Callback </PrimaryButton>
         </nav>
       </div>
       )}

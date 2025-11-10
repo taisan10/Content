@@ -25,10 +25,10 @@ const WorksData = [
     metrics: [
       { label: "Total Views", value: "1.3M+" },
       { label: "Accounts Reached", value: "439K+" },
-      { label: "Followers (136% Growth)", value: "713" },
       { label: "Organic Reach", value: "89%" },
-      { label: "Non-Follower Engagement", value: "62%" },
       { label: "Avg. Monthly Growth Rate", value: "130%" },
+      // { label: "Followers (136% Growth)", value: "713" },
+      // { label: "Non-Follower Engagement", value: "62%" },
     ],
     
   },
@@ -100,10 +100,10 @@ const WorksData = [
     metrics: [
       { label: "Total Views", value: "79K+" },
       { label: "Accounts Reached", value: "48K+" },
-      { label: "Followers (Stable Base)", value: "3.9K" },
       { label: "Total Interactions", value: "439" },
-      { label: "New Followers (Last 30 Days)", value: "33" },
       { label: "Avg. Non-Follower Engagement", value: "39%" },
+      // { label: "Followers (Stable Base)", value: "3.9K" },
+      // { label: "New Followers (Last 30 Days)", value: "33" },
     ],
     
   },
@@ -177,11 +177,11 @@ const WorksData = [
     ],
     metrics: [
       { label: "Total Views (90 Days)", value: "3.6M+" },
-      { label: "Followers (+755 Growth)", value: "2.7K+" },
-      { label: "New Followers (90 Days)", value: "755" },
       { label: "Total Interactions", value: "45.4K" },
-      { label: "Content Shares", value: "93" },
       { label: "Avg. Non-Follower Engagement", value: "97%" },
+      { label: "Content Shares", value: "93" },
+      // { label: "Followers (+755 Growth)", value: "2.7K+" },
+      // { label: "New Followers (90 Days)", value: "755" },
     ],
   },
   servicesProvided: [
@@ -254,11 +254,11 @@ const WorksData = [
     ],
     metrics: [
       { label: "Total Views (90 Days)", value: "214K+" },
-      { label: "Followers (+755 Growth)", value: "1.9K+" },
-      { label: "New Followers (90 Days)", value: "95" },
       { label: "Total Interactions", value: "1.2K" },
       { label: "Content Shares", value: "71" },
-      { label: "Avg. Non-Follower Engagement", value: "79%" },
+      { label: "Followers (+755 Growth)", value: "1.9K+" },
+      // { label: "Avg. Non-Follower Engagement", value: "79%" },
+      // { label: "New Followers (90 Days)", value: "95" },
     ],
   },
   servicesProvided: [
@@ -331,11 +331,11 @@ const WorksData = [
     ],
     metrics: [
       { label: "Total Views (90 Days)", value: "36.1K+" },
-      { label: "Followers (+32% Growth)", value: "430" },
-      { label: "New Followers (90 Days)", value: "32" },
-      { label: "Total Interactions", value: "276" },
       { label: "Content Shares", value: "52" },
+      { label: "Total Interactions", value: "276" },
       { label: "Avg. Non-Follower Engagement", value: "66%" },
+      // { label: "Followers (+32% Growth)", value: "430" },
+      // { label: "New Followers (90 Days)", value: "32" },
     ],
   },
   servicesProvided: [
@@ -407,11 +407,11 @@ const WorksData = [
     ],
     metrics: [
       { label: "Total Views (60 Days)", value: "9.7K" },
-      { label: "Followers (Stable Base)", value: "2.2K" },
-      { label: "Accounts Reached", value: "308" },
-      { label: "Avg. Non-Follower Engagement", value: "54%" },
-        { label: "Total Interactions", value: "276" },
       { label: "Posts Engagement Rate", value: "83.6%" },
+      { label: "Avg. Non-Follower Engagement", value: "54%" },
+      { label: "Total Interactions", value: "276" },
+      // { label: "Followers (Stable Base)", value: "2.2K" },
+      // { label: "Accounts Reached", value: "308" },
     ],
   },
   servicesProvided: [
@@ -485,10 +485,10 @@ const WorksData = [
     ],
     metrics: [
       { label: "Total Views (60 Days)", value: "1.6K" },
-      { label: "Followers (New Account)", value: "16" },
-      { label: "Accounts Reached", value: "53" },
       { label: "Avg. Non-Follower Engagement", value: "78%" },
       { label: "Posts Engagement Rate", value: "94.6%" },
+      { label: "Accounts Reached", value: "53" },
+      // { label: "Followers (New Account)", value: "16" },
     ],
   },
   servicesProvided: [
@@ -562,10 +562,10 @@ const WorksData = [
     metrics: [
       { label: "Total Views (60 Days)", value: "67K" },
       { label: "Followers (Established Base)", value: "13K" },
-      { label: "New Followers (60 Days)", value: "64" },
-      { label: "Total Interactions", value: "193" },
       { label: "Content Shared", value: "74" },
       { label: "Avg. Non-Follower Engagement", value: "49%" },
+      // { label: "New Followers (60 Days)", value: "64" },
+      // { label: "Total Interactions", value: "193" },
     ],
   },
   servicesProvided: [
@@ -641,10 +641,10 @@ const WorksData = [
     metrics: [
       { label: "Total Views (60 Days)", value: "60K" },
       { label: "Followers (+157 Growth)", value: "9.6K" },
-      { label: "New Followers (60 Days)", value: "157" },
-      { label: "Total Interactions", value: "795" },
       { label: "Content Shares", value: "59" },
       { label: "Avg. Non-Follower Engagement", value: "62%" },
+      // { label: "New Followers (60 Days)", value: "157" },
+      // { label: "Total Interactions", value: "795" },
     ],
   },
   servicesProvided: [
@@ -719,10 +719,10 @@ const WorksData = [
     metrics: [
       { label: "Total Views (30 Days)", value: "48.9K" },
       { label: "Total Interactions", value: "403" },
-      { label: "Followers", value: "276" },
       { label: "New Followers (30 Days)", value: "74" },
       { label: "Content Shared", value: "17" },
-      { label: "Non-Follower Engagement", value: "75%" },
+      // { label: "Followers", value: "276" },
+      // { label: "Non-Follower Engagement", value: "75%" },
     ],
   },
   servicesProvided: [

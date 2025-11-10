@@ -1,4 +1,4 @@
-import { Container } from "../UI/UiComponent";
+import { Container,GradientText } from "../UI/UiComponent";
 import { useState } from "react";
 
 export default function ContactPage() {
@@ -83,11 +83,27 @@ export default function ContactPage() {
       <Container className="max-w-6xl mx-auto">
         {/* Heading */}
         <h1 className="lg:text-8xl text-4xl sm:text-5xl font-bold text-start mb-10 -mt-10">
-         Your next move 
+        Connect with us  
          <br />
-        starts here
+        directly
         </h1>
-        <hr className="border-gray-700 mb-10" />
+        <hr className="border-gray-400 mb-4" />
+    
+
+
+       {/* <a className="mb-10 text-lg md:text-2xl"> <span className="text-2xl"> <GradientText>— </GradientText></span>sales@bluenosemarketing.com</a> */}
+<div className="mb-10 text-lg md:text-2xl">
+
+
+       <a
+              href="mailto:sales@bluenosemarketing.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+          <span className="text-2xl">
+              <GradientText>— </GradientText> </span>sales@bluenosemarketing.com
+            </a>
+            </div>
 
         {/* Left + Right */}
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
@@ -104,6 +120,7 @@ export default function ContactPage() {
             <h3 className="text-2xl sm:text-3xl font-semibold mb-6 border-b border-gray-400">
               Your Details
             </h3>
+
 
             {/* Form */}
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -163,7 +180,7 @@ export default function ContactPage() {
                 onChange={handleChange}
                 className="w-full px-4 py-2 rounded-lg bg-black border-b border-gray-50 text-white focus:outline-none focus:ring-2 focus:ring-sky-400"
               >
-                <option value="">Select option</option>
+                <option value="">Are you a Creator or a Brand?</option>
                 <option value="Creator">Creator</option>
                 <option value="Brand">Brand</option>
               </select>
@@ -178,7 +195,7 @@ export default function ContactPage() {
               />
 
               <button type="submit" className="rounded-full bg-gradient-to-r from-sky-500 to-cyan-400 px-6 py-3 text-sm font-medium text-white shadow-lg disabled:opacity-50" disabled={loading}>
-                {loading ? "Submitting..." : "Book A Free Audit"}
+                {loading ? "Submitting..." : "Submit"}
           </button>
 
               {status && (

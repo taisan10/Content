@@ -8,10 +8,10 @@ const CaseStudiesData = [
     theme: "bg-[#b2222b] text-black",
     slug: "sake-cafe-sushi-bar-&-grill",
     data: [
-      { label: "Total Views", value: "1.3M+" },
-      { label: "Organic Reach", value: "89%" },
-      { label: "Accounts Reached", value: "439K+" },
-      { label: "Followers (Sake)", value: "713" },
+       { label: "Total Views (60 Days)", value: "9.7K" },
+      { label: "Posts Engagement Rate", value: "83.6%" },
+      { label: "Avg. Non-Follower Engagement", value: "54%" },
+      { label: "Total Interactions", value: "276" },
     ],
   },
   {
@@ -21,10 +21,10 @@ const CaseStudiesData = [
     theme: "bg-[#fa9b0b] text-black",
     slug: "beaver-bank-station-Bar-&-grill",
     data: [
-      { label: "Total Views", value: "1.3M+" },
-      { label: "Organic Reach", value: "89%" },
-      { label: "Accounts Reached", value: "439K+" },
-      { label: "Followers (BB station)", value: "713" },
+       { label: "Total Views", value: "79K+" },
+      { label: "Accounts Reached", value: "48K+" },
+      { label: "Total Interactions", value: "439" },
+      { label: "Avg. Non-Follower Engagement", value: "39%" },
     ],
   },
   {
@@ -34,10 +34,10 @@ const CaseStudiesData = [
     theme: "bg-[#FAFFD7] text-black",
     slug: "triveeni-events",
     data: [
-      { label: "Total Views", value: "1.3M+" },
-      { label: "Organic Reach", value: "89%" },
+        { label: "Total Views", value: "1.3M+" },
       { label: "Accounts Reached", value: "439K+" },
-      { label: "Followers (Triveeni)", value: "713" },
+      { label: "Organic Reach", value: "89%" },
+      { label: "Avg. Monthly Growth Rate", value: "130%" },
     ],
   },
   {
@@ -47,10 +47,10 @@ const CaseStudiesData = [
     theme: "bg-[#2e5c2e] text-black",
     slug: "the-garden-retreat",
     data: [
-      { label: "Total Views", value: "1.3M+" },
-      { label: "Organic Reach", value: "89%" },
-      { label: "Accounts Reached", value: "439K+" },
-      { label: "Followers (Garden)", value: "713" },
+       { label: "Total Views (60 Days)", value: "67K" },
+       { label: "Content Shared", value: "74" },
+      { label: "Followers (Established Base)", value: "13K" },
+      { label: "Avg. Non-Follower Engagement", value: "49%" },
     ],
   },
   {
@@ -60,10 +60,10 @@ const CaseStudiesData = [
     theme: "bg-[#FF6B01] text-black",
     slug: "nayya-pizza-&-grill",
     data: [
-      { label: "Total Views", value: "1.3M+" },
-      { label: "Organic Rech", value: "8%" },
-      { label: "Accounts Reached", value: "439K+" },
-      { label: "Followers (Nayya)", value: "713" },
+      { label: "Total Views (90 Days)", value: "3.6M+" },
+      { label: "Content Shares", value: "93" },
+      { label: "Total Interactions", value: "45.4K" },
+      { label: "Avg. Non-Follower Engagement", value: "97%" },
     ],
   },
   {
@@ -73,10 +73,10 @@ const CaseStudiesData = [
     theme: "bg-[#f0dfcc] text-black",
     slug: "pita-nutso",
     data: [
-      { label: "Total Views", value: "1.3M+" },
-      { label: "Organic Reach", value: "89%" },
-      { label: "Accounts Reached", value: "439K+" },
-      { label: "Followers (Pita)", value: "713" },
+      { label: "Total Views (90 Days)", value: "36.1K+" },
+      { label: "Content Shares", value: "52" },
+      { label: "Total Interactions", value: "276" },
+      { label: "Avg. Non-Follower Engagement", value: "66%" },
     ],
   },
   {
@@ -86,10 +86,10 @@ const CaseStudiesData = [
     theme: "bg-[#233369] text-black",
     slug: "hearthstone-inn",
     data: [
-      { label: "Total Views", value: "1.3M+" },
-      { label: "Organic Reach", value: "89%" },
-      { label: "Accounts Reached", value: "439K+" },
-      { label: "Followers (Hearthstone)", value: "713" },
+       { label: "Total Views (60 Days)", value: "1.6K" },
+      { label: "Avg. Non-Follower Engagement", value: "78%" },
+      { label: "Posts Engagement Rate", value: "94.6%" },
+      { label: "Accounts Reached", value: "53" },
     ],
   },
   {
@@ -99,10 +99,10 @@ const CaseStudiesData = [
     theme: "bg-[#ad863e] text-black",
     slug: "rivaaj-resto-bar",
     data: [
-      { label: "Total Views", value: "1.3M+" },
-      { label: "Organic Reach", value: "89%" },
-      { label: "Accounts Reached", value: "439K+" },
-      { label: "Followers (Rivaaj)", value: "713" },
+      { label: "Total Views (30 Days)", value: "48.9K" },
+      { label: "Total Interactions", value: "403" },
+      { labelTop: "New Followers", labelBottom: "(30 Days)", value: "74" },
+      { label: "Content Shared", value: "17" },
     ],
   },
   {
@@ -112,10 +112,10 @@ const CaseStudiesData = [
     theme: "bg-[#FFC100] text-black",
     slug: "adda-indian-eatery",
     data: [
-      { label: "Total Views", value: "1.3M+" },
-      { label: "Organic Reach", value: "89%" },
-      { label: "Accounts Reached", value: "439K+" },
-      { label: "Followers (Adda)", value: "713" },
+      { label: "Total Views (90 Days)", value: "214K+" },
+      { label: "Total Interactions", value: "1.2K" },
+      { label: "Content Shares", value: "71" },
+      { label: "Followers (+755 Growth)", value: "1.9K+" },
     ],
   },
   {
@@ -125,10 +125,10 @@ const CaseStudiesData = [
     theme: "bg-[#134457] text-black",
     slug: "beshram-bar-and-grill",
     data: [
-      { label: "Total Views", value: "1.3M+" },
-      { label: "Organic Reach", value: "89%" },
-      { label: "Accounts Reached", value: "439K+" },
-      { label: "Followers (Beshram)", value: "713" },
+      { label: "Total Views (60 Days)", value: "60K" },
+      { label: "Followers (+157 Growth)", value: "9.6K" },
+      { label: "Content Shares", value: "59" },
+      { label: "Avg. Non-Follower Engagement", value: "62%" },
     ],
   },
 ];
