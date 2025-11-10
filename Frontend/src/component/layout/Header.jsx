@@ -39,6 +39,14 @@ const workNavChildren = WorksData.map((item) => ({
     // { label: "About4", href: "/about4" },
     // { label: "About3", href: "/company" },
     // { label: "About5", href: "/about5" },
+    // { label: "AboutPage", href: "/aboutpage" },
+
+    {
+      label: "About12", href:"/About12"
+    },
+    {
+      label: "Contact", href:"/Contact"
+    },
 
 {
   label: "Work",
@@ -155,7 +163,7 @@ const workNavChildren = WorksData.map((item) => ({
 
           {/* CTA */}
           <div className="hidden md:block">
-            <PrimaryButton href="#contact">Book A Free Audit</PrimaryButton>
+            <PrimaryButton href="/contact">Book A Free Audit</PrimaryButton>
           </div>
 
           {/* Mobile Actions */}

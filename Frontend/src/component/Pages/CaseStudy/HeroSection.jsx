@@ -54,7 +54,7 @@ export function HeroSection({ data }) {
             transition={{ duration: 1, delay: 0.9 }}
           >
            <div className="hidden md:block  ">
-                       <PrimaryButton href="#contact">Book A Free Audit</PrimaryButton>
+                       <PrimaryButton href="/contact">Book A Free Audit</PrimaryButton>
                      </div>
           </motion.div>
         </div>
