@@ -10,10 +10,10 @@ export default function AboutPages(){
           <div className="min-h-screen bg-neutral-950 text-white selection:bg-sky-400/30 ">
           <>
           <Hero />
-          {/* <Working /> */}
+     <Growth />
          <CEO />
      <Journey />
-     <Growth />
+          <Working />
        <Process />
           </>
           
