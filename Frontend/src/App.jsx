@@ -16,6 +16,7 @@ import Contact from "./component/Pages/Contact";
 import WorkDetail from "./component/Pages/CaseStudy/index/WorksPage";
 
 import { ServiceRoutes } from "./component/Pages/Services/ServiceRoutes";
+import ContactNew from "./component/UI/Contactnew";
 
 export default function App() {
   return (
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="/Works" element={<About2/>} />
           <Route path="/About" element={<About/>} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/contact12" element={<ContactNew />} />
         </Routes>
       </Layout>
     </Router>

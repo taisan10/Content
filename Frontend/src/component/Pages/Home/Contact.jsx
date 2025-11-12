@@ -1,22 +1,8 @@
 
 
-// import ContactPage from "../UI/Contactpage";
-// import { Container } from "../UI/UiComponent";
-
-// export default function Contact() {
-//   return (
-//     <Container className="py-16 ">
-//       <h1 className="text-3xl font-bold mb-6 ">Contact Us</h1>
-//       <div className="bg-white text-black p-6 rounded-xl shadow ">
-//         <ContactPage />
-//       </div>
-//     </Container>
-//   );
-// }
 
 
-
-import { Container, PrimaryButton } from "../../UI/UiComponent";
+import { Container, GradientText, PrimaryButton } from "../../UI/UiComponent";
 
 export default function ContactPage() {
   return (
@@ -24,7 +10,7 @@ export default function ContactPage() {
       <Container className="grid gap-8 sm:gap-12 items-start -mt-8 sm:-mt-12 md:-mt-12 lg:-mt-12 -mb-10 sm:-mb-10 md:-mb-18 lg:-mb-10 text-center ">
         <div>
           <h3 className="text-xl sm:text-4xl lg:text-4xl  font-semibold leading-tight mb-4 sm:mb-5 text-white/80">
-            Ready to Grow Your Revenue Through Digital Marketing?
+           <GradientText>Ready to Grow Your Revenue Through Digital Marketing? </GradientText> 
           </h3>
 
           <div className="text-sm sm:text-md  lg:text-2xl lg:mx-25  mb-4 sm:mb-6 text-white/80">

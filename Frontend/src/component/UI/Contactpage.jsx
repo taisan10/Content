@@ -100,7 +100,7 @@ export default function ContactPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-          <span className="text-2xl">
+          <span className="text-sm md:text-md">
               <GradientText>— </GradientText> </span>sales@bluenosemarketing.com
             </a>
             </div>
@@ -110,7 +110,7 @@ export default function ContactPage() {
           {/* Left Side */}
           <div className="w-full md:w-1/2 text-center md:text-left">
             <h5 className="text-2xl sm:text-3xl font-bold">
-               Your voice matters — let's talk.
+            We're listening, reach out anytime!
 
             </h5>
           </div>
@@ -216,3 +216,4 @@ export default function ContactPage() {
     </section>
   );
 }
+

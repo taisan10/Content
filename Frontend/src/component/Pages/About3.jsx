@@ -32,26 +32,7 @@ export default function AboutUs() {
     },
   ];
 
-  const process = [
-    {
-      step: "01",
-      title: "Listen & Discover",
-      desc: "We dive deep into your brand — understanding your audience, vision, and values before crafting a single line of copy or code.",
-      img: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80",
-    },
-    {
-      step: "02",
-      title: "Strategize & Design",
-      desc: "Our strategists and creatives collaborate to build a roadmap that merges storytelling, visuals, and performance goals.",
-      img: "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1200&q=80",
-    },
-    {
-      step: "03",
-      title: "Launch & Grow",
-      desc: "We execute with precision, measure in real time, and optimize relentlessly. Growth isn’t luck — it’s the result of disciplined creativity.",
-      img: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80",
-    },
-  ];
+
 
   const team = [
     {
@@ -118,27 +99,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      {/* Our Process */}
-      <div className="max-w-6xl mx-auto space-y-12">
-        <h2 className="text-center text-3xl md:text-4xl font-bold mb-8">Our Process to Impact</h2>
-        {process.map((p, i) => (
-          <div
-            key={i}
-            className={`flex flex-col ${i % 2 === 0 ? "sm:flex-row" : "sm:flex-row-reverse"} items-center gap-8`}
-          >
-            <img
-              src={p.img}
-              alt={p.title}
-              className="w-full sm:w-1/2 h-auto max-h-80 rounded-2xl shadow-lg object-cover"
-            />
-            <div className="sm:w-1/2 space-y-3  ">
-              <span className="text-cyan-400 font-semibold text-lg">{p.step}</span>
-              <h3 className="text-2xl font-bold">{p.title}</h3>
-              <p className="text-gray-400 text-base">{p.desc}</p>
-            </div>
-          </div>
-        ))}
-      </div>
+     
 
       {/* The Culture */} 
       <div className="max-w-4xl mx-auto text-center">

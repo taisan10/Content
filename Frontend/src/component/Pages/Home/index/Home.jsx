@@ -1,7 +1,4 @@
-// import ContactPage from "../../../UI/Contactpage";
-// import ContactPage from "../../../UI/Contact";
-// import Contact from "../Contact";
-// import { CollageSlider } from "../Grid";/
+
 
 
 import Contact from "../Contact";

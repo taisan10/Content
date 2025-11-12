@@ -12,7 +12,7 @@ export default function Hero() {
 
 
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden bg-black">
       <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(60%_60%_at_50%_10%,rgba(14,165,233,.22),transparent),radial-gradient(40%_40%_at_10%_80%,rgba(20,184,166,.18),transparent)]" />
 
       <Container className="py-10 sm:py-28 md:py-28 lg:py-28 text-center mt-5 sm:-mt-10">

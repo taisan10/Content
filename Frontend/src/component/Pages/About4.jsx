@@ -43,22 +43,7 @@ const AboutPage = () => {
 
   return (
     <div className="bg-gray-950 text-white min-h-screen font-sans">
-      {/* Hero Section */}
-      <section className="text-center py-24 px-6 bg-gradient-to-b from-gray-900 to-gray-950">
-        <motion.h1
-          initial={{ opacity: 0, y: -40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-4xl md:text-5xl font-extrabold text-blue-400 mb-4"
-        >
-          About Bluenose Digital Marketing
-        </motion.h1>
-        <p className="text-gray-300 max-w-3xl mx-auto text-lg leading-relaxed">
-          Bluenose is a global digital marketing agency helping ambitious brands grow with data,
-          creativity, and purpose. Headquartered in Canada, we blend North American strategy
-          with global execution excellence.
-        </p>
-      </section>
+    
 
       {/* Our Story in Numbers */}
       <section className="py-16 px-6 bg-gray-900">
@@ -81,32 +66,7 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* Leadership Message */}
-      <section className="py-20 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <motion.div
-          initial={{ opacity: 0, x: -40 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6 }}
-        >
-          <h2 className="text-3xl font-bold text-blue-400 mb-4">
-            A Message from Our Founder
-          </h2>
-          <p className="text-gray-300 mb-6 leading-relaxed">
-            “When I started Bluenose, my vision was clear — to create a marketing agency that
-            values integrity, creativity, and measurable results equally. Our clients aren’t
-            just businesses — they’re partners in building something meaningful.”
-          </p>
-          <p className="text-blue-300 font-semibold">— Sarah Bennett, Founder & CEO</p>
-        </motion.div>
-        <motion.img
-          src="Client_Logo/1.png"
-          alt="Founder"
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6 }}
-          className="rounded-2xl shadow-lg"
-        />
-      </section>
+  
 
       {/* Company Timeline Journey */}
 <section className="bg-gray-950 py-20 px-6">
