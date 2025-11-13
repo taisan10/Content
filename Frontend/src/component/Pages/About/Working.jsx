@@ -7,25 +7,25 @@ export default function Working() {
     {
       title: "Social Media Management",
       desc: "Crafting engaging content calendars, boosting engagement, and building your brand voice across Instagram, Facebook & LinkedIn.",
-      icon: <FaInstagram className="text-pink-500" />,
+      icon: <FaInstagram  />,
       bg: "from-purple-900 via-black to-gray-900",
     },
     {
       title: "Graphic Design",
       desc: "We design visuals that speak your brand’s language — from sleek logos to stunning social media carousels.",
-      icon: <FaPaintBrush className="text-yellow-400" />,
+      icon: <FaPaintBrush  />,
       bg: "from-gray-900 via-zinc-900 to-black",
     },
     {
       title: "Videography",
       desc: "Our cinematic shoots blend creativity and storytelling — helping your audience feel the emotion behind every frame.",
-      icon: <FaVideo className="text-red-500" />,
+      icon: <FaVideo  />,
       bg: "from-black via-gray-900 to-slate-900",
     },
     {
       title: "Video Editing",
       desc: "We edit your videos with emotion and rhythm — transforming raw clips into scroll-stopping stories.",
-      icon: <FaCut className="text-green-400" />,
+      icon: <FaCut  />,
       bg: "from-zinc-900 via-gray-900 to-black",
     },
   ];
@@ -70,7 +70,7 @@ export default function Working() {
         </div>
 
 
-        <div className="grid gap-8 min-[480px]:grid-cols-2 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-40 ">
+        <div className="grid gap-8 min-[480px]:grid-cols-2 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-4 ">
           {services.map((service, i) => (
             <motion.div
               key={i}

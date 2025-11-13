@@ -185,7 +185,7 @@ const scrollTabs = (direction) => {
           className={`whitespace-nowrap px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm md:text-md font-medium transition-all duration-300 ${
             activeIndex === index ? `${work.heroSection.theme}` : "bg-gray-50 text-gray-700 hover:bg-gray-200"
           } , ${
-    ["Hearthstone Inn","Garden Retreat"].some(val =>  activeWork.name.includes(val))
+    ["Hearthstone Inn","Garden Retreat","Sake Cafe","Besharam "].some(val =>  activeWork.name.includes(val))
       ? "text-gray-100"
       : "text-black"
   }`}
@@ -221,7 +221,7 @@ const scrollTabs = (direction) => {
         
             <h3
   className={`text-2xl sm:text-3xl md:text-4xl font-bold   ${
-    ["Hearthstone Inn","Garden Retreat"].some(val =>  activeWork.name.includes(val))
+    ["Hearthstone Inn","Garden Retreat","Sake Cafe","Besharam "].some(val =>  activeWork.name.includes(val))
       ? "text-gray-100"
       : "text-black"
   }`}
@@ -231,7 +231,7 @@ const scrollTabs = (direction) => {
 
 <p
   className={`text-base sm:text-lg opacity-90 ${
-    ["1.6K", "67K+"].some(val => activeWork.heroSection.subtitle.includes(val))
+    ["1.6K", "67K+","9.7K+","60K"].some(val => activeWork.heroSection.subtitle.includes(val))
       ? "text-gray-100"
       : "text-black"
   }`}
