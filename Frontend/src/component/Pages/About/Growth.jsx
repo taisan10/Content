@@ -6,18 +6,18 @@ export default function Growth(){
     { label: "Global Clients", value: "120+" },
     { label: "Campaigns Delivered", value: "5K+" },
     { label: "ROI Growth Avg.", value: "320%" },
-    { label: "Active Markets", value: "2 Countries" },
+    { label: "Team Member", value: "200" },
   ];
 
   return(
 <div>
      {/* Our Story in Numbers */}
-      <section className="py-16 px-6 bg-black -mt-30 mb-15">
+      <section className="py-16 px-6 bg-black -mt-20 sm:-mt-23 md:-mt-24 lg:-mt-3 mb-15">
         <Container>
         {/* <h2 className="text-3xl font-bold text-center  mb-12">
          <GradientText> Our Story in Numbers </GradientText>
         </h2> */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto text-center">
+        <div className="grid  sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto text-center">
           {stats.map((s, i) => (
             <motion.div
               key={i}

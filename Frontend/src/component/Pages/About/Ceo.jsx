@@ -3,7 +3,7 @@ import Founder from "/About/Founder.jpg";
 
 export default function CEO() {
   return (
-    <section className="py-12 px-6 bg-black">
+    <section className="py-12 px-6 bg-black -mt-30 sm:-mt-25 md:-mt-30 lg:-mt-25">
       <Container className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-10">
           {/* Left: Text (md: 60%) */}

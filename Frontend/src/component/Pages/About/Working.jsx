@@ -58,9 +58,19 @@ export default function Working() {
   return (
     <section className="-mt-0 sm:-mt-15 bg-black text-white">
       <Container>
-        
+        <div className="text-center mb-14">
+          <h2 className="text-3xl md:text-5xl font-extrabold mb-4">
+           <GradientText>
+              What We Do
+          </GradientText>
+          </h2>
+          <p className="text-gray-400 text-base md:text-lg">
+            Building brand impact through design, strategy, and storytelling.
+          </p>
+        </div>
 
-        <div className="grid gap-8 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-4">
+
+        <div className="grid gap-8 min-[480px]:grid-cols-2 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-40 ">
           {services.map((service, i) => (
             <motion.div
               key={i}

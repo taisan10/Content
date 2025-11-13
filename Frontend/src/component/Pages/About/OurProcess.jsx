@@ -27,7 +27,7 @@ import { Container, GradientText } from "../../UI/UiComponent";
     <section className="bg-black">
       <Container>
          {/* Our Process */}
-      <div className="max-w-6xl  mx-17 sm:mx-10 md:mx-15 space-y-12 -mt-20">
+      <div className="max-w-6xl  mx-17 sm:mx-10 md:mx-15 space-y-12 mt-10">
         <h2 className="text-center text-3xl md:text-4xl font-bold "> <GradientText> Our Process to Impact </GradientText></h2>
         {process.map((p, i) => (
           <div
