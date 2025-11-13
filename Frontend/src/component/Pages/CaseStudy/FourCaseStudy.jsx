@@ -139,22 +139,20 @@ export function CaseStudiesSections() {
                 {/* Title + Desc */}
                 <div>
                   <h3
-                    className={`text-2xl font-bold mb-6 ${
-                      ["Hearthstone Inn"].includes(
-                        study.title
-                      )
-                        ? "text-gray-100"
-                        : "text-black"
-                    }`}
+                    className={`text-2xl font-bold mb-6  ${
+    ["Hearthstone Inn","Garden Retreat","Sake Cafe","Besharam "].some(val =>  study.title.includes(val))
+      ? "text-gray-100"
+      : "text-black"
+  }`}
                   >
                     {study.title}
                   </h3>
                   <p
                     className={`text-lg ${
-                      study.desc.includes("1.6K")
-                        ? "text-gray-100"
-                        : "text-black"
-                    }`}
+    ["1.6K", "67K+","9.7K+","60K"].some(val => study.desc.includes(val))
+      ? "text-gray-100"
+      : "text-black"
+  }`}
                   >
                     {study.desc}
                   </p>

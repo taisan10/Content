@@ -5,20 +5,20 @@ import { Container, GradientText } from "../../UI/UiComponent";
     const process = [
       {
         step: "01",
-        title: "Listen & Discover",
-        desc: "We dive deep into your brand — understanding your audience, vision, and values before crafting a single line of copy or code.",
+        title: "Deep Brand Discovery",
+        desc: "We dive into your unique vision, goals, and audience to build a comprehensive foundation for tailored success.",
         img: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80",
       },
       {
         step: "02",
-        title: "Strategize & Design",
-        desc: "Our strategists and creatives collaborate to build a roadmap that merges storytelling, visuals, and performance goals.",
+        title: "Personalized Strategy Roadmap",
+        desc: "We craft a relevant, strategic roadmap through creative collaboration, mapping out every step towards your desired outcome.",
         img: "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1200&q=80",
       },
       {
         step: "03",
-        title: "Launch & Grow",
-        desc: "We execute with precision, measure in real time, and optimize relentlessly. Growth isn’t luck — it’s the result of disciplined creativity.",
+        title: "Execute,Measure, Optimize",
+        desc: "We execute with creative discipline, constantly measuring performance and optimizing campaigns for maximum, measurable impact.",
         img: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80",
       },
     ];
@@ -28,7 +28,7 @@ import { Container, GradientText } from "../../UI/UiComponent";
       <Container>
          {/* Our Process */}
       <div className="max-w-6xl  mx-17 sm:mx-10 md:mx-15 space-y-12 mt-10 mb-10">
-        <h2 className="text-center text-3xl md:text-4xl font-bold "> <GradientText> Our Process to Impact </GradientText></h2>
+        <h2 className="text-center text-3xl md:text-4xl font-bold "> <GradientText>Your Journey With Us </GradientText></h2>
         {process.map((p, i) => (
           <div
             key={i}

@@ -40,15 +40,15 @@ const workNavChildren = WorksData.map((item) => ({
     // { label: "About3", href: "/company" },
     // { label: "About5", href: "/about5" },
     // { label: "AboutPage", href: "/aboutpage" },
+    {
+      label: "Work",
+      children: workNavChildren,
+    },
 
     {
       label: "About", href:"/About12"
     },
     
-    {
-      label: "Work",
-      children: workNavChildren,
-    },
     {
       label: "Contact", href:"/Contact"
     },
@@ -120,7 +120,7 @@ const workNavChildren = WorksData.map((item) => ({
                    
                   </button>
 {isHovered === item.label && (
-  <div className="absolute left-0 mt-2 bg-gray-50 shadow-xl rounded-xl w-[600px] z-50 flex">
+  <div className="absolute left-0  mt-2 bg-gray-50 shadow-xl rounded-xl w-[600px] z-50 flex">
     {/* Left Section */}
     <div className="w-[200px] bg-gray-200 p-6 rounded-l-xl flex flex-col justify-between">
       <div>

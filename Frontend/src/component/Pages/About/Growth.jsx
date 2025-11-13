@@ -12,7 +12,7 @@ export default function Growth(){
   return(
 <div>
      {/* Our Story in Numbers */}
-      <section className="py-16 px-6 bg-black -mt-20 sm:-mt-23 md:-mt-24 lg:-mt-3 mb-15">
+      <section className="py-16 px-6 bg-black -mt-20 sm:-mt-23 md:-mt-24 lg:-mt-5 mb-15">
         <Container>
         {/* <h2 className="text-3xl font-bold text-center  mb-12">
          <GradientText> Our Story in Numbers </GradientText>

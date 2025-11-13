@@ -9,19 +9,20 @@ export default function CEO() {
           {/* Left: Text (md: 60%) */}
           <div className="w-full md:w-[50%] -mt-5  sm:-mt-10 md:mt-5 lg:-mt-10  md:ml-10 ">
             <h2 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold mb-4 leading-tight ">
-              <GradientText>A Message from Our Founder</GradientText>
+              <GradientText>Message from Our Founder</GradientText>
             </h2>
 
             <p className="text-gray-300 mb-6 text-base sm:text-lg md:text-sm lg:text-lg leading-relaxed ">
-              When I started Bluenose, my vision was clear — to create a
-              marketing agency that values integrity, creativity, and measurable
-              results equally. <br /> Our clients aren’t just businesses —
-              they’re partners in building something meaningful.
+             The vision for Bluenose Marketing was born from a simple need: to build a digital marketing agency that effortlessly  <b>blends boundless creativity with undeniable data-driven results. </b>
+             <br /><br />We established our first office in Halifax, Canada, with the immediate goal of bringing brands closer to their audiences through impactful, solution-driven strategies. <br />
+
+              <br /> Our family has since grown into a thriving team of <b>25+ global digital</b> experts—from dedicated strategists and creative designers to precise performance marketers—all united in their passion for client welfare and personalized strategy.
+
             </p>
 
             <p className="font-semibold text-white">
               <GradientText>
-                — Blunose Digital Marketing, Founder & CEO
+                — Bluenose Digital Marketing, Founder & CEO
               </GradientText>
             </p>
           </div>

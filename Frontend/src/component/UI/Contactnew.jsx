@@ -201,7 +201,7 @@ export default function ContactNew() {
                   What services are you looking for?
                 </label>
                 <div className="flex flex-col gap-3 text-gray-300 text-xl">
-                  {[ "Social Media Handling","Influencer Marketing", "Video Production","Events", "Others"].map((service) => (
+                  {[ "Social Media Handling", "Video Production","Events","Influencer Marketing", "Others"].map((service) => (
                     <label key={service} className="flex items-center gap-2">
                       <input
                         type="checkbox"
@@ -216,15 +216,21 @@ export default function ContactNew() {
                 </div>
               </div>
             <div>
+
+              <div>
+                <label className="block mb-2 text-2xl font-semibold">
+Message For Us:
+                </label>
                <textarea
                id="message"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder="What services are you looking for?"
+                placeholder="Something in your mind we should know?"
                 rows="4"
                 className="w-full px-4 py-2 rounded-lg text-white border-b border-gray-50 focus:outline-none focus:ring-2 focus:ring-sky-400"
               />
+              </div>
             </div>
 
 

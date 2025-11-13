@@ -6,25 +6,25 @@ export default function Working() {
  const services = [
     {
       title: "Social Media Management",
-      desc: "Crafting engaging content calendars, boosting engagement, and building your brand voice across Instagram, Facebook & LinkedIn.",
+      desc: "We manage your daily online presence, build thriving communities, and run targeted campaigns that guarantee consistent engagement and growth.",
       icon: <FaInstagram  />,
       bg: "from-purple-900 via-black to-gray-900",
     },
     {
       title: "Graphic Design",
-      desc: "We design visuals that speak your brand’s language — from sleek logos to stunning social media carousels.",
+      desc: "Creating bespoke visual assets, from powerful brand identities to scroll-stopping ad creatives, designed to communicate your message instantly.",
       icon: <FaPaintBrush  />,
       bg: "from-gray-900 via-zinc-900 to-black",
     },
     {
-      title: "Videography",
-      desc: "Our cinematic shoots blend creativity and storytelling — helping your audience feel the emotion behind every frame.",
+      title: "Influencer Marketing",
+      desc: "Connecting your brand with authentic voices and high-impact creators to generate trust, scale reach, and drive real conversions.",
       icon: <FaVideo  />,
       bg: "from-black via-gray-900 to-slate-900",
     },
     {
-      title: "Video Editing",
-      desc: "We edit your videos with emotion and rhythm — transforming raw clips into scroll-stopping stories.",
+      title: "Videography & Video Editing",
+      desc: "Producing high-definition, strategic videos and reels that capture attention and tell your brand’s story with cinematic quality.",
       icon: <FaCut  />,
       bg: "from-zinc-900 via-gray-900 to-black",
     },
@@ -56,7 +56,7 @@ export default function Working() {
 //   ];
 
   return (
-    <section className="-mt-0 sm:-mt-15 bg-black text-white">
+    <section className="-mt-15 sm:-mt-15 bg-black text-white">
       <Container>
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-5xl font-extrabold mb-4">

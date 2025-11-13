@@ -101,7 +101,7 @@ const CaseStudiesData = [
     data: [
       { label: "Total Views (30 Days)", value: "48.9K" },
       { label: "Total Interactions", value: "403" },
-      { labelTop: "New Followers", labelBottom: "(30 Days)", value: "74" },
+      { label: "New Followers (30 Days)", value: "74" },
       { label: "Content Shared", value: "17" },
     ],
   },
