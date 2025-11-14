@@ -539,78 +539,6 @@ const WorksData = [
    
 },
 
-// {
-//   id: 7,
-//   name: "Desi Garden",
-//   names: "Desi Garden",
-//   slug: "desi-garden",
-//   grid: {
-//     image: "/Grid/7.jpg",
-//   },
-//   heroSection: {
-//     title: "Desi Garden",
-//     subtitle: "2.1M+ Views in 90 Days: Explosive Viral Growth for Desi Garden | Takeout Kitchen",
-//     tags: ["Strategic Planning", "Performance Pulse", "Content Power"],
-//     image: "/Client_Logo/8.png",
-//     theme: "bg-[#1B1B1B] text-white",
-//   },
-//   overview: {
-//     summary: [
-//       "Desi Garden is an Indian takeout kitchen specializing in authentic home-style Indian meals with the tagline 'Tastes Like Home, Take It Home.' Located in Halifax, Nova Scotia, Desi Garden brings the comfort and authenticity of traditional Indian home cooking to the community through convenient takeout service.",
-//       "The target audience includes Indian diaspora craving authentic home-cooked meals, busy professionals seeking quality takeout, families looking for convenient dinner solutions, students missing home-style Indian food, and food enthusiasts exploring authentic regional Indian cuisine.",
-//       "Our goal was to establish Desi Garden's Instagram presence as the go-to destination for authentic home-style Indian takeout through relatable, appetizing content that showcases the comfort and authenticity of their dishes.",
-//       "We focused on creating viral Reels content that captured the essence of 'home' while maximizing organic reach to attract both the Indian community and curious food lovers across Halifax.",
-//     ],
-//     metrics: [
-//       { label: "Views (Last 30 Days)", value: "943K" },
-//       { label: "Content Shared (30 Days)", value: "74" },
-//       { label: "Total Interactions", value: "10.8K" },
-//       { label: "Avg. Non-Follower Engagement", value: "99%" },
-//     ],
-//   },
-//   servicesProvided: [
-//     { name: "Social Media Strategy", icon: "📈" },
-//     { name: "Reels-First Content Creation", icon: "🎥" },
-//     { name: "Viral Food Videography", icon: "📹" },
-//     { name: "Home-Style Food Photography", icon: "📸" },
-//     { name: "Analytics & Performance Tracking", icon: "📊" },
-//     { name: "Authentic Brand Storytelling", icon: "📖" },
-//   ],
-//   challenge: {
-//     summary: [
-//       "We started by reviewing Desi Garden's Instagram presence and growth objectives.",
-//       "As a takeout kitchen competing in Halifax's diverse food scene, the client needed to differentiate themselves through authentic positioning and viral content strategy.",
-//     ],
-//     heading: "Key challenges included:",
-//     points: [
-//       "Standing out in competitive Halifax Indian food market",
-//       "Communicating 'home-style' authenticity vs. restaurant dining",
-//       "Building emotional connection through 'Tastes Like Home' messaging",
-//       "Creating viral content that drives massive discovery",
-//       "Attracting Indian diaspora seeking authentic home cooking",
-//       "Competing with established restaurants with larger market",
-//       "Building brand recognition as takeout-focused kitchen",
-//     ],
-//   },
-//   approach: [
-//     "Built an aggressive, optimized, and exclusive Reels-first content strategy, ensuring that approximately 98% of all published content was presented in the high-discovery vertical video format.",
-//     "Launched and consistently applied a distinct and recognizable brand aesthetic centered on themes of being authentic, homely, comforting, and highly relatable, which deeply resonated with the target audience.",
-//     "Achieved exceptional viral performance across the platform, with a staggering 99% non-follower engagement rate successfully driving massive organic discovery and community growth.",
-//   ],
-//   keyStrategies: [
-//     "Engineered a viral formula using authenticity, relatability, and trending sound.",
-//     "Comfort food positioning: emotional connection over just food",
-//     "SEO-optimized captions with emotional, relatable copy",
-//     "Optimal Reels length (7–15 seconds) for maximum completion rates",
-//     "Explore page domination: 99% non-follower reach through viral content",
-//     "Established sustainable community capital by strategically converting followers into emotionally engaged brand advocates.",
-//   ],
-//   cta: {
-//     heading: "Want results like these?",
-//     subtext: "Let’s build your brand’s viral presence together.",
-//     button: "Book a strategy call",
-//   },
-// },
 {
   id: 8,
   name: "The Garden Retreat",
@@ -841,8 +769,80 @@ const WorksData = [
     subtext: "Contact us to see how we can meet your needs!",
     button: "Book a call",
   },
-}
+},
 
+{
+  id: 11,
+  name: "Desi Garden",
+  names: "Desi Garden",
+  slug: "desi-garden",
+  grid: {
+    image: "/Grid/7.jpg",
+  },
+  heroSection: {
+    title: "Desi Garden",
+    subtitle: "2.1M+ Views in 90 Days: Explosive Viral Growth for Desi Garden | Takeout Kitchen",
+    tags: ["Strategic Planning", "Performance Pulse", "Content Power"],
+    image: "/Client_Logo/8.png",
+    theme: "bg-[#2e5c2e] text-white",
+  },
+  overview: {
+    summary: [
+      "Desi Garden is an Indian takeout kitchen specializing in authentic home-style Indian meals with the tagline 'Tastes Like Home, Take It Home.' Located in Halifax, Nova Scotia, Desi Garden brings the comfort and authenticity of traditional Indian home cooking to the community through convenient takeout service.",
+      "The target audience includes Indian diaspora craving authentic home-cooked meals, busy professionals seeking quality takeout, families looking for convenient dinner solutions, students missing home-style Indian food, and food enthusiasts exploring authentic regional Indian cuisine.",
+      "Our goal was to establish Desi Garden's Instagram presence as the go-to destination for authentic home-style Indian takeout through relatable, appetizing content that showcases the comfort and authenticity of their dishes.",
+      "We focused on creating viral Reels content that captured the essence of 'home' while maximizing organic reach to attract both the Indian community and curious food lovers across Halifax.",
+    ],
+    metrics: [
+      { label: "Views (Last 30 Days)", value: "943K" },
+      { label: "Content Shared (30 Days)", value: "74" },
+      { label: "Total Interactions", value: "10.8K" },
+      { label: "Avg. Non-Follower Engagement", value: "99%" },
+    ],
+  },
+  servicesProvided: [
+    { name: "Social Media Strategy", icon: "📈" },
+    { name: "Reels-First Content Creation", icon: "🎥" },
+    { name: "Viral Food Videography", icon: "📹" },
+    { name: "Home-Style Food Photography", icon: "📸" },
+    { name: "Analytics & Performance Tracking", icon: "📊" },
+    { name: "Authentic Brand Storytelling", icon: "📖" },
+  ],
+  challenge: {
+    summary: [
+      "We started by reviewing Desi Garden's Instagram presence and growth objectives.",
+      "As a takeout kitchen competing in Halifax's diverse food scene, the client needed to differentiate themselves through authentic positioning and viral content strategy.",
+    ],
+    heading: "Key challenges included:",
+    points: [
+      "Standing out in competitive Halifax Indian food market",
+      "Communicating 'home-style' authenticity vs. restaurant dining",
+      "Building emotional connection through 'Tastes Like Home' messaging",
+      "Creating viral content that drives massive discovery",
+      "Attracting Indian diaspora seeking authentic home cooking",
+      "Competing with established restaurants with larger market",
+      "Building brand recognition as takeout-focused kitchen",
+    ],
+  },
+  approach: [
+    "Built an aggressive, optimized, and exclusive Reels-first content strategy, ensuring that approximately 98% of all published content was presented in the high-discovery vertical video format.",
+    "Launched and consistently applied a distinct and recognizable brand aesthetic centered on themes of being authentic, homely, comforting, and highly relatable, which deeply resonated with the target audience.",
+    "Achieved exceptional viral performance across the platform, with a staggering 99% non-follower engagement rate successfully driving massive organic discovery and community growth.",
+  ],
+  keyStrategies: [
+    "Engineered a viral formula using authenticity, relatability, and trending sound.",
+    "Comfort food positioning: emotional connection over just food",
+    "SEO-optimized captions with emotional, relatable copy",
+    "Optimal Reels length (7–15 seconds) for maximum completion rates",
+    "Explore page domination: 99% non-follower reach through viral content",
+    "Established sustainable community capital by strategically converting followers into emotionally engaged brand advocates.",
+  ],
+  cta: {
+    heading: "Want results like these?",
+    subtext: "Let’s build your brand’s viral presence together.",
+    button: "Book a strategy call",
+  },
+},
 
 ]
 export default WorksData;

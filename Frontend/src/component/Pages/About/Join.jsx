@@ -5,7 +5,7 @@ export default function Join(){
   return(
     <div>
        {/* ---------------- JOIN OUR TEAM ---------------- */}
-<section className="relative py-24 px-8 text-center overflow-hidden bg-gradient-to-b from-gray-900 to-gray-950">
+<section className="relative py-24 px-8 text-center overflow-hidden bg-gradient-to-black from-gray-900 to-gray-950">
   <Container>
   <motion.img
     src="/Client_Logo/1.png"

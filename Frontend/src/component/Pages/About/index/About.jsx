@@ -16,7 +16,7 @@ export default function AboutPages(){
      <Journey />
           <Working />
        <Process />
-       {/* <Join /> */}
+       <Join />
           </>
           
           </div>
