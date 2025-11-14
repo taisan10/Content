@@ -783,8 +783,8 @@ const WorksData = [
     title: "Desi Garden",
     subtitle: "2.1M+ Views in 90 Days: Explosive Viral Growth for Desi Garden | Takeout Kitchen",
     tags: ["Strategic Planning", "Performance Pulse", "Content Power"],
-    image: "/Client_Logo/8.png",
-    theme: "bg-[#2e5c2e] text-white",
+    image: "/Client_Logo/9.png",
+    theme: "bg-[#fa6709] text-white",
   },
   overview: {
     summary: [
