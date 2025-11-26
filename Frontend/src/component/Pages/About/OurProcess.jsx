@@ -24,7 +24,7 @@ import { Container, GradientText } from "../../UI/UiComponent";
     ];
     
    return (
-    <section className="bg-black">
+    <section className="bg-neutral">
       <Container>
          {/* Our Process */}
       <div className="max-w-6xl  mx-17 sm:mx-10 md:mx-15 space-y-12 mt-10 mb-10">

@@ -76,7 +76,7 @@ export default function ContactNew() {
   };
 
   return (
-    <section id="contact" className="bg-black text-white py-16 sm:py-20">
+    <section id="contact" className="bg-neutral text-white py-16 sm:py-20">
       <Container className="max-w-6xl mx-auto">
         {/* Heading */}
         <h1 className="lg:text-8xl text-4xl sm:text-5xl font-bold text-start mb-10 -mt-10">

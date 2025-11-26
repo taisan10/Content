@@ -56,7 +56,7 @@ export default function Working() {
 //   ];
 
   return (
-    <section className="-mt-15 sm:-mt-15 bg-black text-white">
+    <section className="-mt-15 sm:-mt-15 bg-neutral text-white">
       <Container>
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-5xl font-extrabold mb-4">

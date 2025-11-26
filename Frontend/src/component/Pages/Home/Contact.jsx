@@ -7,7 +7,7 @@ import { Container, GradientText, PrimaryButton } from "../../UI/UiComponent";
 export default function ContactPage() {
   return (
     <section id="contact" className="py-16 sm:py-20">
-      <Container className="grid gap-8 sm:gap-12 items-start -mt-8 sm:-mt-12 md:-mt-12 lg:-mt-12 -mb-10 sm:-mb-10 md:-mb-18 lg:-mb-10 text-center ">
+      <Container className="grid gap-8 sm:gap-12 items-start -mt-15 sm:-mt-15 md:-mt-20 lg:-mt-15 -mb-10 sm:-mb-10 md:-mb-30 lg:-mb-25 text-center ">
         <div>
           <h3 className="text-xl sm:text-4xl lg:text-4xl  font-semibold leading-tight mb-4 sm:mb-5 text-white/80">
            <GradientText>Ready to Grow Your Revenue Through Digital Marketing? </GradientText> 

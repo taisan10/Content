@@ -15,13 +15,13 @@ export default function Header() {
   const lastScrollY = useRef(0);
   let timeoutId = useRef(null);
   
-// const serviceNavChildren = ServiceRoutes.map(({ path, element }) => {
-//   const label = path.split("/").pop().replace(/-/g, " ");
-//   return {
-//     label: label.charAt(0).toUpperCase() + label.slice(1),
-//     href: path,
-//   };
-// });
+const serviceNavChildren = ServiceRoutes.map(({ path, element }) => {
+  const label = path.split("/").pop().replace(/-/g, " ");
+  return {
+    label: label.charAt(0).toUpperCase() + label.slice(1),
+    href: path,
+  };
+});
 
 
 const workNavChildren = WorksData.map((item) => ({
@@ -34,20 +34,21 @@ const workNavChildren = WorksData.map((item) => ({
   const navItems = [
     { label: "Home", href: "/" },
     
-    // { label: "About", href: "/about" },
-    // { label: "About2", href: "/works" },
-    // { label: "About4", href: "/about4" },
-    // { label: "About3", href: "/company" },
-    // { label: "About5", href: "/about5" },
-    // { label: "AboutPage", href: "/aboutpage" },
+     {
+      label: "About", href:"/About"
+    },
     {
       label: "Work",
       children: workNavChildren,
     },
 
+   
+
     {
-      label: "About", href:"/About12"
-    },
+    label: "Services",
+    children: serviceNavChildren,
+  },
+
     
     {
       label: "Contact", href:"/Contact"
@@ -56,10 +57,6 @@ const workNavChildren = WorksData.map((item) => ({
       label: "ContactNew", href:"/Contact12"
     },
 
-// {
-//     label: "Services",
-//     children: serviceNavChildren,
-//   },
 
     
 
@@ -165,7 +162,7 @@ const workNavChildren = WorksData.map((item) => ({
           </nav>
 
           {/* CTA */}
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <PrimaryButton href="/contact">Book A Callback</PrimaryButton>
           </div>
 
@@ -174,9 +171,9 @@ const workNavChildren = WorksData.map((item) => ({
   className="flex items-center justify-end gap-2 w-full px-4 md:hidden 
 "
 >
-  <HeaderButton href="#contact" className="text-sm px-3 py-2  hidden">
+  {/* <HeaderButton href="/Contact" className="text-sm px-3 py-2  hidden">
    Book A Callback
-  </HeaderButton>
+  </HeaderButton> */}
 
   <button
     aria-label="Open menu"

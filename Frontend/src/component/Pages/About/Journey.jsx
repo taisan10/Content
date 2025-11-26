@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 export default function Journey(){
   return(
     
-    <div className="-mt-20 " >
+    <div className="-mt-20 bg-neutral " >
 
       {/* Company Timeline Journey */}
-<section className="bg-black py-20 px-6 " >
+<section className=" py-20 px-6 " >
   <Container>
   <motion.h2
     initial={{ opacity: 0, y: -20 }}
@@ -25,7 +25,7 @@ export default function Journey(){
       {
         year: "September 2024 ",
         title: "The vision was born",
-        desc: "TO build a digital marketing agency that blends creativity with data-driven results.",
+        desc: "To build a digital marketing agency that blends creativity with data-driven results.",
       },
       {
         year: "December 2024",
